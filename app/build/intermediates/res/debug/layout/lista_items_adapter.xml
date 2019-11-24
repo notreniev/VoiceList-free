@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lista_items_adapter"
+    android:padding="7dp">
+
+    <TextView
+        android:id="@+id/tvItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:typeface="normal"
+        android:textStyle="normal"
+        android:padding="7dp"/>
+
+    <ImageView
+        android:id="@+id/ivCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_accept"
+        android:layout_alignTop="@+id/tvItem"
+        android:layout_toRightOf="@+id/tvItem"
+        android:layout_toEndOf="@+id/tvItem" />
+
+</RelativeLayout><!-- From: file:/Users/canez/Dropbox/projetos/androidStudioProjects/VoiceList-free/app/src/main/res/layout/lista_items_adapter.xml -->

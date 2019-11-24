@@ -1,0 +1,12 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <corners android:radius="4dp" />
+
+    <solid android:color="#ffffff" />
+
+    <stroke
+        android:width="1dip"
+        android:color="#999999" />
+
+</shape><!-- From: file:/Users/canez/Dropbox/projetos/androidStudioProjects/VoiceList-free/app/src/main/res/drawable/button_circle_custom_style.xml -->

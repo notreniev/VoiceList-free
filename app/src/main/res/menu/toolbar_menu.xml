@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.support.v7.widget.SearchView"
+        android:icon="@drawable/ic_action_search_white"
+        app:showAsAction="collapseActionView|always"
+        android:title="@string/pesquisar" />
+
+    <item
+        android:id="@+id/action_new"
+        android:icon="@drawable/ic_action_list_add"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:title="Nova lista" />
+
+    <item
+        android:id="@+id/action_new2"
+        android:icon="@drawable/ic_action_list_add"
+        app:showAsAction="collapseActionView|ifRoom"
+        android:title="Nova lista" />
+
+</menu>

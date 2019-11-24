@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:id="@+id/action_remove_item"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:title="Remover"/>
+</menu><!-- From: file:/Users/canez/Dropbox/projetos/androidStudioProjects/VoiceList-free/app/src/main/res/menu/context_menu_list.xml -->

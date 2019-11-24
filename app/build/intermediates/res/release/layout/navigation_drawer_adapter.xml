@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/lista_adapter"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:padding="7dp">
+
+    <ImageView
+        android:id="@+id/ivIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_action_sort_by_size_dark"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/tvLista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lista"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Medium"
+        android:typeface="normal"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text_default_material_light"
+        android:padding="7dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ivIcon"
+        android:layout_toRightOf="@+id/ivIcon" />
+
+</RelativeLayout><!-- From: file:/Users/canez/Dropbox/projetos/androidStudioProjects/VoiceList-free/app/src/main/res/layout/navigation_drawer_adapter.xml -->
